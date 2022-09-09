@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+*{
+  font-family: 'Quicksand', sans-serif;
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	
+	box-sizing: border-box; 
+} 
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction:row;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.App-header p {
+  font-family: 'Permanent Marker', cursive;
+  color:red;
+  rotate: -19deg;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.postCard h2
+{
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+button{
+  background-color: transparent;
+  padding: 8px 12px;
+  font-size: 8vh;
+  border:none;
+}
+
+/*
+.postCard{
+  
+  float:left;
+  width: 40vh;
+  padding: 2vh;
+  margin: 5vh;
+  text-align: center;
+  align-items: center;
+
+  min-height: 20vh;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+ 
+}
+*/ 
+
+.postCard{
+  float:left;
+  width: 25%;
+  height: 30vh;
+	margin: 5% 1% 1% 5%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.postCard-container{
+  background-color: cornsilk;
+  padding: 2% 5% 2% 2%;
 }
